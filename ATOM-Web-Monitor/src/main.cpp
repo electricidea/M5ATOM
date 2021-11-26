@@ -3,6 +3,8 @@
  * A simple web server to display the environment sensor data as a web page.
  * 
  * Hague Nusseck @ electricidea
+ * v1.0 | 26.November.2021
+ * https://github.com/electricidea/M5ATOM/tree/master/ATOM-Web-Monitor
  * 
  * 
  * used Resources:
@@ -89,7 +91,7 @@ void setup() {
   // set LED to red
   M5.dis.fillpix(LED_ERROR); 
   Serial.println("M5ATOM ENV montitor");
-  Serial.println("v0.2b | 25.11.2021");
+  Serial.println("v1.0 | 26.11.2021");
   // scan for I2C devices
   I2Cscan();
   // Set WiFi to station mode and disconnect
